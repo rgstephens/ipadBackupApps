@@ -1,0 +1,15 @@
+package ipadbackupapps
+
+class IpadScalars implements Serializable {
+    String key
+    Integer daysSince1970
+    Integer value
+
+    static mapping = {
+       id composite:['key','daysSince1970','value'],generator:"assigned"
+       version false
+    }
+
+    static constraints = {
+    }
+}

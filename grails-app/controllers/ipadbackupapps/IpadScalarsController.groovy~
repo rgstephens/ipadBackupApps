@@ -1,0 +1,6 @@
+package ipadbackupapps
+
+class IpadScalarsController {
+
+    def scaffold = IpadScalars
+}

@@ -1,0 +1,7 @@
+package ipadbackupapps
+
+class AppDetails {
+
+    static constraints = {
+    }
+}
